@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zebra Striped Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        /* Memberikan warna hijau pada header */
+        th {
+            background-color: greenyellow;
+            color: white;
+        }
+        /* Memberikan efek zebra pada baris */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        /* Efek hover pada baris */
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Zebra Striped Table</h2>
+    <p>TR hover</p>
+
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Points</th>
+        </tr>
+        <tr>
+            <td>Alfin</td>
+            <td>Fadillah</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Raffi</td>
+            <td>Pasya</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Putri</td>
+            <td>Alenda</td>
+            <td>$200</td>
+        </tr>
+        <tr>
+            <td>Dhani</td>
+            <td>Kusuma</td>
+            <td>$250</td>
+        </tr>
+    </table>
+
+</body>
+</html>
