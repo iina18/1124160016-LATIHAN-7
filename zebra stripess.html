@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th {
+            background-color: greenyellow;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+    </style>
+<body>
+    <h2>Zebra Striped Table</h2>
+    <p>untuk tabel bergaris zebra, gunakan pemilih nth-child() dan tambahkan warna latar belakang ke semua garis genap (atau ganjil):</p>
+    <table>
+        <tr>
+            <th>first name</th>
+            <th>last name</th>
+            <th>points</th>
+        </tr>
+        <tr>
+            <td>Alfan</td>
+            <td>Fadillah</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>Raffi</td>
+            <td>Pasya</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td>Putri</td>
+            <td>Alaeda</td>
+            <td>$300</td>
+        </tr>
+        <tr>
+            <td>Dhani</td>
+            <td>Kusuma</td>
+            <td>$250</td>
+        </tr>
+    </table>
+</body>
+</html>
